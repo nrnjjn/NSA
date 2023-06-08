@@ -1,0 +1,9 @@
+echo Enter the limit
+read n
+sum=0
+echo The sum of $n natural numbers are:
+for((i=1; i<=n; i++))
+do
+sum=$((sum + i))
+done
+echo $sum
